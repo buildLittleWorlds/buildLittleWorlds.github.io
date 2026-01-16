@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #0b0d17; /* Deep space dark blue */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 2px solid #3a445d;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+h1, h2 {
+    color: #4da6ff; /* Soft nebula blue */
+}
+
+/* Navigation */
+nav a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Required classes for the ENGL 170 Scraper */
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #161b22;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+}
+
+.post-list a {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.date {
+    display: block;
+    font-size: 0.9em;
+    color: #8b949e;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.8em;
+    text-align: center;
+    color: #8b949e;
+}
